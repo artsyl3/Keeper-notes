@@ -1,9 +1,8 @@
+const ut = require("./utilities")
 const fs = require('fs')
+const notes = require('./notes');
+
+const Sum  = ut(3,3)
+const Mynotes = notes();
 //fs.writeFileSync('note.txt' , 'I lodadadddd js')
-fs.appendFile('note.txt', "I add you", (err) => {
-    if (err) {
-      console.error('Failed to append data:', err);
-    } else {
-      console.log('Data successfully appended.');
-    }
-  });
+console.log(Mynotes);
