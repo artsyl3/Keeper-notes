@@ -1,8 +1,7 @@
-const validator = require("validator")
+const chalk = require('chalk')
 const fs = require('fs')
 const notes = require('./notes');
 
 
+console.log(chalk.green('Success..'))
 const Mynotes = notes();
-//fs.writeFileSync('note.txt' , 'I lodadadddd js')
-console.log(validator.isURL('https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728848#overview'));
