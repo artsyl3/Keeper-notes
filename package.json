@@ -1,0 +1,22 @@
+{
+  "name": "keeper-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artsyl3/Keeper-notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artsyl3/Keeper-notes/issues"
+  },
+  "homepage": "https://github.com/artsyl3/Keeper-notes#readme",
+  "dependencies": {
+    "validator": "^13.12.0"
+  }
+}
