@@ -5,4 +5,4 @@ const notes = require('./notes');
 
 console.log(chalk.green('Success..'))
 const Mynotes = notes();
-s
+ssa
