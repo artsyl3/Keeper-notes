@@ -23,7 +23,7 @@ yargs.command({
         }
     },
     handler: function (argv) {
-        console.log(argv.title , argv.body)
+        console.log("title: ", chalk.bold(argv.title) , "body: ", chalk.bold(argv.body));
     }
 })
 
