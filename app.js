@@ -2,14 +2,28 @@ const chalk = require('chalk')
 const fs = require('fs')
 const notes = require('./notes');
 const yargs = require('yargs');
+const { DESTRUCTION } = require('dns');
+const { title } = require('process');
 
 yargs.version('1.1.0')
 
 yargs.command({
     command: 'add',
     describe: 'Add a new note',
-    handler: function () {
-        console.log('Note added successfully!')
+    builder: {
+        title: {
+            description: 'Note title',
+            type:'string',
+            demandOption: true
+        },
+        body: {
+            description: 'Note body',
+            type:'string',
+            demandOption: true
+        }
+    },
+    handler: function (argv) {
+        console.log(argv.title , argv.body)
     }
 })
 
@@ -36,5 +50,5 @@ yargs.command({
         console.log('Reading note...')
     }
 })
-console.log(yargs.argv)
+yargs.parse();
 
