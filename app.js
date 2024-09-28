@@ -5,7 +5,7 @@ const yargs = require('yargs');
 const { DESTRUCTION } = require('dns');
 const { title } = require('process');
 
-yargs.version('1.1.0')
+yargs.version('1.1.1')
 
 yargs.command({
     command: 'add',
