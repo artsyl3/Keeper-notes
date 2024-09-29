@@ -17,6 +17,7 @@ data.planet = 'F-35';
 data.age = 300;
 
 console.log(data);
+d
 
 const jsonData = JSON.stringify(data);
 fs.writeFileSync('1-bookJason.json', jsonData);
