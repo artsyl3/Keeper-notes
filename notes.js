@@ -23,7 +23,7 @@ const addNote = function (title, body) {
         console.log(`Note "${title}" already exists!`)
     }
 
-    
+    w
 }
 
 const saveNotes = function (notes) {
