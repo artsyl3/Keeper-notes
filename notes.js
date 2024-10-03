@@ -23,7 +23,14 @@ const addNote = function (title, body) {
         console.log(`Note "${title}" already exists!`)
     }
 
-    w
+    
+}
+
+const removeNote = function(title) {
+    const note = loadNotes();
+    
+
+
 }
 
 const saveNotes = function (notes) {
@@ -43,5 +50,6 @@ const loadNotes = function ( ) {
 
 module.exports = {
     getNotes: getNotes,
-    addNote: addNote
+    addNote: addNote,
+    removeNote: removeNote
 }
