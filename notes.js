@@ -14,7 +14,7 @@ const addNote =  (title, body) => {
             title: title,
             body: body
         })
-        saveNotes(notes)
+        saveNotes(notes)d
         console.log('New note added!')
     }
 }
